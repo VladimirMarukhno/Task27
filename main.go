@@ -29,7 +29,7 @@ func main() {
 
 func printStudent() {
 	fmt.Println("Данные студентов:")
-	for key, value := range studentMap {
-		fmt.Printf("%-9s %-3v %v\n", key, value.Age, value.Grade)
+	for _, value := range studentMap {
+		fmt.Printf("%-9s %-3v %v\n", value.Name, value.Age, value.Grade)
 	}
 }
