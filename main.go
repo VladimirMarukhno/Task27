@@ -27,7 +27,6 @@ func newStudent() {
 		n, err := fmt.Scan(&a.Name, &a.Age, &a.Grade)
 		if n == 0 {
 			stydent.Get()
-			//printStudent()
 			break
 		} else if err != nil {
 			fmt.Println("Ошибка:", err)
