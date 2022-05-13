@@ -12,8 +12,8 @@ func (s stydentMap) Put(a Struct.Student) {
 }
 
 func (s stydentMap) Get() {
+	fmt.Println()
 	fmt.Println("Данные студентов:")
-
 	for _, value := range s {
 		fmt.Printf("%-9s %-3v %v\n", value.Name, value.Age, value.Grade)
 	}
