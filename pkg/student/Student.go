@@ -1,4 +1,4 @@
-package Struct
+package student
 
 type Student struct {
 	Name  string
